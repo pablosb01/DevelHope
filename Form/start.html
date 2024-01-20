@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
@@ -20,22 +20,22 @@
       <h2>Registration Form</h2>
 
       <label for="correo">Correo Electronico:</label>
-      <input type="email" name="correo">
+      <input id ="correo" type="email" name="correo">
 
       <label for="clave">Contraseña</label>
-      <input type="password" name="clave">
+      <input id="clave" type="password" name="clave">
 
       <label for="name">Name and Lastname</label>
-      <input type="text" placeholder="Pablo Diaz" name="nombre">
+      <input id="name" type="text" placeholder="Pablo Diaz" name="nombre">
 
       <label for="fecha">Introduce fecha nacimiento:</label>
-      <input type="date" name="fecha" max="2024-01-18">
+      <input type="date" id="fecha" name="fecha" max="2024-01-18">
 
       <label for="phoneNumber">Numero de Telefono:</label>
-      <input type="tel" name="phoneNumber" placeholder="XXXXXXXXX">
+      <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="XXXXXXXXX">
 
       <label for="plans">Elige un plan:</label>
-      <select id="plans" name="plans" required>
+      <select id="plans" id="plans" name="plans" required>
         <option value="" disabled selected>Elige un plan</option>
         <option value="freePlan">Plan Gratuito</option>
         <option value="threePlan">Plan de 3 personas</option>
@@ -44,19 +44,19 @@
 
       
       <label for="prem">Paquete</label>
-      <input type="checkbox" name="prem">Paquete premium
+      <input type="checkbox" id="prem" name="prem">Paquete premium
       
       <label for="creditCard">Tarjeta de credito</label>
-      <input type="text" inputmode="numeric" pattern="[0-9]+" autocomplete="cc-number" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required/>
+      <input type="text" id="creditCard" inputmode="numeric" pattern="[0-9]+" autocomplete="cc-number" maxlength="16" placeholder="xxxx xxxx xxxx xxxx" required/>
 
       <label for="cvc">CVC</label>
-      <input type="text" inputmode="numeric" name="cvc" maxlength="3" pattern="[0-9]+" placeholder="XXX" required>
+      <input type="text" id="cvc" inputmode="numeric" name="cvc" maxlength="3" pattern="[0-9]+" placeholder="XXX" required>
 
       <label for="exprDate">Fecha de expiracion</label>
-      <input type="date" name="exprDate" min="2024-01-18">
+      <input type="date" id="exprDate" name="exprDate" min="2024-01-18">
 
       <label for="billAdress">Direccion de Facturacion</label>
-      <input type="text" name="billAdress">
+      <input type="text" id="billAdress" name="billAdress">
 
       <br>
       <br>
